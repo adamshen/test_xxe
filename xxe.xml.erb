@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+  <!ENTITY name SYSTEM <%= %Q("file://#{File.expand_path File.dirname(__FILE__)}/secrets.yml") %>>
+]>
+<user>
+  <name>&name;</name>
+</user>
